@@ -36,17 +36,14 @@ h1, h2, h3{
      padding-bottom: 100px;
      color:#fff;
  }
- .navbar-default .navbar-brand{
+ .navbar-default .navbar-brand,
+ .navbar-default .navbar-nav > li > a{
      color:#fff;
+     &:hover{
+         color:#fff;
+         opacity: 0.75;
+     }
  }
- .navbar-default .navbar-nav > li > a {
-     color: #fff;
- }
- .navbar-default .navbar-brand:hover{
-     color:#fff;
-     opacity: 0.75;
- }
- .navbar-default .navbar-nav > li > a:hover{
-     color: #fff;
-     opacity: 0.75;
- } 
+ 
+ 
+ 
